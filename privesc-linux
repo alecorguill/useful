@@ -1,0 +1,7 @@
+### find ###
+
+  # all file accessible by a group
+  find / -type f -group <GROUP> 2>/dev/null
+
+  # find file with a name (regex)
+  find . -type f -regex '*flag*'

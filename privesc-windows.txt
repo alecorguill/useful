@@ -1,0 +1,5 @@
+### Privesc Windows ###
+  
+  # PowerUp
+  Import-Module PowerUp.ps1
+  Invoke-AllChecks 
